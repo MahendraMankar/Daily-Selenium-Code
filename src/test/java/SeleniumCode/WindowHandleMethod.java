@@ -27,6 +27,8 @@ public class WindowHandleMethod {
 			Thread.sleep(2000);
 			driver.close();
 		}
+		Thread.sleep(2000);
+		driver.quit(); 	// It close the main window also 
 	}
 
 }
