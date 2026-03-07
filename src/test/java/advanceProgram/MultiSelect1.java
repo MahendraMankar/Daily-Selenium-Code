@@ -9,7 +9,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class MultiSelect1 {
-
+	// description of this program
+	// this is multiple select program it contains all the multiple select and deselect methods in one program 
+	
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		WebDriver driver = new EdgeDriver();
