@@ -11,8 +11,8 @@ public class ImplicitProgramAssignment1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		WebDriver driver = new EdgeDriver();
 		WebDriver driver = new ChromeDriver();
+//		WebDriver driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
 		driver.get("https://shoppersstack.com/products_page/34");
